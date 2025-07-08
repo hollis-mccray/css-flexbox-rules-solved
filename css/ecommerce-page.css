@@ -51,7 +51,7 @@ section {
   font-size: 28px;
   font-weight: 900;
   font-family: "Caveat", sans-serif;
-  width: 200px;
+  width: 175px;
 }
 
 .search-bar {
@@ -61,6 +61,7 @@ section {
   background: #1f1f27;
   padding: 10px 20px;
   border-radius: 20px;
+  align-items: center;
 }
 
 .search-bar input {
@@ -86,6 +87,10 @@ section {
   min-width: 60px;
   text-transform: capitalize;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
 }
 
 .option i {
@@ -143,6 +148,9 @@ i.fa-th-list {
   height: 40px;
   border: 1px solid #8d8ba5;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .products {
@@ -289,6 +297,7 @@ i.fa-th-list {
   display: flex;
   gap: 10px;
   margin: 10px;
+  flex-direction: column;
 }
 
 .lines-action .product-image-wrapper {
@@ -313,4 +322,7 @@ i.fa-th-list {
   min-width: 200px;
   display: flex;
   align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
 }
